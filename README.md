@@ -38,3 +38,10 @@ Contact Me:
 carreejoh4637@mailbox.org 
 
 https://github.com/Carreejoh
+
+# Screenshots and Video
+![image](https://user-images.githubusercontent.com/122936256/234135757-836001b9-c83f-4829-904e-fe20053d9b78.png)
+
+
+https://user-images.githubusercontent.com/122936256/234135855-2792469c-05b0-46aa-9c40-7a374eba9f45.mp4
+
