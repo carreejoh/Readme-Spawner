@@ -40,7 +40,15 @@ module.exports = {
       return `# ${data.title} \n
 ${licenseBadge} \n
 # Description \n ${data.description}  \n
-# Table of Contents \n ${data.tableofcontents} \n
+# Table of Contents \n 
+- [Title](#title) 
+- [Description](#description) 
+- [Installation](#installation) 
+- [Usage](#usage)
+- [License](#license)
+- [Contributors](#contributors)
+- [Testing](#testing)
+- [Questions](#questions)\n
 # Installation \n ${data.installation}  \n
 # Usage \n ${data.usage}  \n
 # License \n This content is under the ${data.license} license  \n
@@ -49,19 +57,8 @@ ${licenseBadge} \n
 # Questions \n 
 Contact Me: \n 
 ${data.email} \n
-github.com/${data.github}`;
+https://github.com/${data.github}`;
     },
   
   }
   
-  // return `# ${data.title} \n
-  //    ${licenseBadge} \n
-  //   + # Description \n ${data.description}` + "\n" 
-  //   + `# Table of Contents \n ${data.tableofcontents}` + "\n"
-  //   + `# Installation \n ${data.installation}` + "\n"
-  //   + `# Usage \n ${data.usage}` + "\n"
-  //   + `# License \n This content is under the ${data.license} license` + "\n"
-  //   + `# Contributors \n ${data.contributors}` + "\n"
-  //   + `# Testing \n ${data.testing}` + "\n"
-  //   + `# Questions \n Contact Me: \n ${data.email} \n github.com/${data.github} `;
-  //   },

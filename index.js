@@ -40,11 +40,6 @@ function init() {
             name: 'description'
         },
         {
-            type: 'input',
-            message: questions[2],
-            name: 'tableofcontents',
-        },
-        {
             type: 'rawlist',
             message: questions[3],
             name: 'installation',
